@@ -1,0 +1,8 @@
+<html>
+<title>Hello from Flask</title>
+{% if name %}  <!--如果name不为空则将name渲染出来-->
+<h1>hello {{name}} ! </h1>
+{% else %}
+    <h1>Hello World! </h1>  <!--如果name为空则打印hello world！ -->
+    {% endif %}
+</html>
